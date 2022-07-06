@@ -116,8 +116,8 @@ body {
     align-items: center;
     overflow: hidden;
     position: absolute;
-    width: 91%;
-    left: 17px;
+    width: 87%;
+    left: 25px;
     transition: .2s ease-in-out;
 }
 

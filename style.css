@@ -206,6 +206,7 @@ body {
         width: 445px;
         margin-top: 0;
         padding: 35px;
+        border-radius: 0 10px 10px 0;
     }
 
     .article h1 {
@@ -217,6 +218,27 @@ body {
         padding-bottom: 20px;
     }
     .share {
-        position: absolute;
+        width: 300px;
+        left: 60%;
+        bottom: 43%;
+        border-radius: 10px;
     }
+
+    .share {
+        overflow: visible;
+    }
+
+    .triangle-bottom{
+        width:0px;
+        height:0px;
+        border:15px solid;
+        border-top-color: var(--dk-gray-blue);
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        position: absolute;
+        left: 145px;
+        transform: translateY(45px);
+        
+
 }
